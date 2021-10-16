@@ -33,7 +33,7 @@ function App() {
         .range([0, innerHeight])
         .padding(0.1);
 
-      const yAxis = axisLeft(yScale);
+      // const yAxis = axisLeft(yScale);
       const g = svg
         .append("g")
         .attr("transform", `translate(${margin.left},${margin.top})`);
